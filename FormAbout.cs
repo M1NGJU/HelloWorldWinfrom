@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace helloWorldForms
 {
-    public partial class FromName: Form
+    public partial class FormAbout: Form
     {
-        public FromName()
+        public FormAbout()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void extit_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
     }
 }
